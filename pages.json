@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "植物识别",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "动物识别",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
+			}
+		},
+		
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "识别结果"
+			}
+		},
+		
+		{
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "视频介绍"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	
+	"tabBar": {
+			"color": "#515151",
+			"selectedColor": "#57BD6A",
+			"borderStyle": "black",
+			"backgroundColor": "#F8F8F8",
+			"list": [{
+					"pagePath": "pages/index/index",
+					"iconPath": "static/plant.png",
+					"selectedIconPath": "static/plant-c.png",
+					"text": "植物识别"
+				},
+				{
+					"pagePath": "pages/category/category",
+					"iconPath": "static/animal.png",
+					"selectedIconPath": "static/animal-c.png",
+					"text": "动物识别"
+				}
+			]
+		}
+	
+}

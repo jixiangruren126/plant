@@ -1,0 +1,30 @@
+
+.layout_horizontal{
+	  height: 6.25rem;
+	  display: flex;
+	  /*row 横向  column 列表  */
+	  flex-direction: row;
+}
+	
+	/*纵向布局  */
+.layout_vertical{
+	  height: 6.25rem;
+	  display: flex;
+	  /*row 横向  column 列表  */
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+}
+.image{
+	  border-radius: 2.5rem;
+	  overflow: hidden;
+	  width: 3.125rem;
+	  height: 3.125rem;
+	  margin-bottom: 0.625rem;
+}
+.tips{
+	  margin-top: 0.625rem;
+	  font-size:12px;
+	  color:grey;
+}
+	

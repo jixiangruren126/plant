@@ -1,0 +1,36 @@
+
+.uni-margin-wrap {
+		width:21.5625rem;
+		width: 100%;
+}
+.swiper {
+		height: 12.5rem;
+}
+.swiper-item {
+		display: block;
+		height: 12.5rem;
+		line-height: 12.5rem;
+		text-align: center;
+}
+.swiper-list {
+		margin-top: 1.25rem;
+		margin-bottom: 0;
+}
+.uni-common-mt{
+		margin-top:1.875rem;
+		position:relative;
+}
+.info {
+		position: absolute;
+		right:0.625rem;
+}
+.uni-padding-wrap {
+        width:17.1875rem;
+        padding:0 3.125rem;
+}
+.button{
+		margin-top: 25px;
+		margin-bottom: 10px;
+		margin-left: 40px;
+		margin-right: 40px;
+}
